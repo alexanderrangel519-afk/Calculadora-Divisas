@@ -1,12 +1,8 @@
 [app]
-
-# (Importante: Estas son las 4 líneas que te pedía el error)
 title = Calculadora
 package.name = calculadora
 package.domain = org.test
 source.dir = .
-
-# (Configuraciones adicionales necesarias)
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy
@@ -20,4 +16,3 @@ android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
-warn_on_root = 1
