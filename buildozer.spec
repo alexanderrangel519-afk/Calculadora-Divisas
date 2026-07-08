@@ -1,7 +1,6 @@
 [app]
-# (Asegúrate de que estos valores coincidan con tu proyecto)
-title = Calculadora
-package.name = calculadora
+title = MiCalculadora
+package.name = calculadoraproyecto
 package.domain = org.test
 source.include_exts = py,png,jpg,kv,atlas
 source.dir = .
@@ -13,7 +12,7 @@ android.api = 33
 android.minapi = 24
 android.ndk = 25b
 android.archs = arm64-v8a
-# ¡Esta línea es clave para evitar errores de licencias!
+# Esto soluciona el error de licencias que vimos en la imagen
 android.accept_sdk_license = True
 
 [buildozer]
